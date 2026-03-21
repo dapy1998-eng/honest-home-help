@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Honest Home Help</title>
+  <style>
+    body { font-family: Arial; margin:0; background:#f8f8f8; color:#222;}
+    header { padding:20px; background:white; border-bottom:1px solid #ddd;}
+    section { padding:60px 20px; max-width:900px; margin:auto;}
+    h1 { font-size:40px;}
+    .btn { background:#0f766e; color:white; padding:12px 20px; border-radius:999px; text-decoration:none;}
+    .box { background:white; padding:20px; border-radius:15px; margin-top:20px;}
+    input, textarea { width:100%; padding:10px; margin-top:10px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Honest Home Help</h2>
+</header>
+
+<section>
+  <h1>Need help with a house?</h1>
+  <p>We help homeowners dealing with foreclosure, inherited homes, or stressful situations. No pressure. Just honest help.</p>
+  <a class="btn" href="#contact">Get Help</a>
+
+  <div class="box">
+    <h3>Our Purpose</h3>
+    <p>We are not here to take advantage of anyone. We believe in honest business and helping you find the best path forward.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Request a Call</h2>
+  
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="text" name="phone" placeholder="Phone number" required />
+    <input type="text" name="address" placeholder="Property address" />
+    <textarea name="message" placeholder="Tell me your situation"></textarea>
+    <button class="btn" type="submit">Submit</button>
+  </form>
+</section>
+
+</body>
+</html>
