@@ -1,0 +1,8 @@
+{
+  "name": "honest-home-help",
+  "private": true,
+  "scripts": {
+    "build": "echo build complete",
+    "start": "echo start"
+  }
+}
